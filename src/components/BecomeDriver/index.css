@@ -1,0 +1,52 @@
+.becomedriver {
+  padding: 100px 0;
+}
+.becomedriver .title {
+  font-size: 30px;
+  font-weight: 300;
+}
+.becomedriver .content_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.becomedriver .content_box .item {
+  width: 170px;
+}
+.becomedriver .content_box .item {
+  border: solid 1px #f3f3f3;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.becomedriver .content_box .item:hover {
+  box-shadow: 0 0 2px 2px #f3f3f3;
+}
+.becomedriver .content_box .item img {
+  width: 100%;
+  height: 180px;
+}
+.becomedriver .content_box .item .text {
+  text-align: center;
+  padding: 10px;
+}
+.becomedriver .content_box .item .text .name {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+.becomedriver .content_box .item .text i {
+  font-size: 14px;
+  color: orange;
+}
+.becomedriver .subtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.becomedriver .body{
+    line-height: 28px;
+    color: grey;
+}

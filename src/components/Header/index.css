@@ -1,0 +1,149 @@
+header {
+  position: fixed;
+  width: 100%;
+  padding: 6px 10px;
+  background: #f3f3f3;
+  z-index: 1000;
+  border-bottom: solid 1px grey;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_content a,
+.header_content a:hover {
+  text-decoration: none !important;
+}
+.header_content .logo_content {
+  flex-grow: 2;
+}
+.header_content .logo_content i,
+.header_content .logo_content span {
+  color: green;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.header_content nav {
+  flex-grow: 5;
+  text-align: center;
+}
+.header_content nav ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.header_content nav li {
+  display: inline;
+}
+.header_content nav a {
+  font-size: 18px;
+  padding: 0 10px;
+  font-weight: 500;
+  color: grey;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.header_content nav a.active {
+  color: orange;
+}
+.header_content nav a:hover {
+  color: orange;
+}
+.header_content .search_content {
+  flex-grow: 5;
+  text-align: center;
+}
+.header_content .search_content input {
+  padding: 3px 10px;
+  width: 80%;
+  border: solid 1px grey;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.header_content .search_content input:focus {
+  outline: none;
+}
+.header_content .search_content input::placeholder {
+  color: green;
+}
+.header_content .login_content {
+  flex-grow: 4;
+  text-align: right;
+}
+.header_content .login_content button {
+  padding: 3px 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.header_content .login_content button:hover {
+  background: black;
+}
+.header_content .login_content button:focus {
+  border: none;
+}
+.header_content .login_content .btn_signUp {
+  background: green;
+}
+.header_content .login_content .btn_signIn {
+  background: blue;
+}
+.header_content .login_content .onsignin {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header_content .login_content .onsignin .user_name img {
+  width: 30px;
+  height: 30px;
+  border: solid 1px grey;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.header_content .login_content .onsignin .user_name span {
+  color: green;
+  margin-right: 3px;
+  font-weight: 500;
+}
+.header_content .login_content .onsignin .user_logout {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.header_content .login_content .onsignin .user_logout:hover {
+  color: red;
+  cursor: pointer;
+}
+.header_content .login_content .onsignin .user_logout i {
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+.admin_signin {
+  font-size: 20px;
+  color: green;
+}
+.admin_signin:hover {
+  color: black;
+}

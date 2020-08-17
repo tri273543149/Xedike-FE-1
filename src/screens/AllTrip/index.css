@@ -1,0 +1,83 @@
+.alltrip {
+  padding: 80px 0;
+  min-height: 600px;
+  background: url(./background.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.alltrip .control_bar {
+  background: #f3f3f3;
+  padding: 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.alltrip .control_bar .title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.alltrip .control_bar label{
+  font-weight: 500;
+  color: green;
+}
+.alltrip .tripitem{
+  border: solid 1px transparent;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.alltrip .tripitem:hover{
+  border: solid 1px grey;
+}
+.alltrip .tripitem .item_content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.alltrip .tripitem .item_content .item img{
+  width: 40px;
+  height: 40px;
+  border: solid 1px grey;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.alltrip .tripitem .item_content .item{
+  font-size: 14px;
+  font-weight: 500;
+}
+.alltrip .tripitem .item_content .item i{
+  color: grey;
+}
+.alltrip .tripitem .locationFrom, .alltrip .tripitem .locationTo{
+  font-weight: 500;
+}
+.alltrip .tripitem .fullName{
+  font-weight: bold;
+  margin-left: 5px;
+}
+.alltrip .tripitem .item_star i{
+  font-size: 13px;
+  color: orange;
+}
+.alltrip .tripitem .item_star .rating{
+  font-weight: bold;
+  margin: 0 4px;
+  font-size: 14px;
+}
+.background2{
+  background: white;
+}

@@ -1,0 +1,59 @@
+.usermanage {
+  padding: 30px 0;
+  min-height: 700px;
+}
+.usermanage .control_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.usermanage .control_bar .title {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+.usermanage .control_bar input[type="text"] {
+  width: 200px;
+  border: solid 1px grey;
+  padding: 3px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.usermanage .control_bar select {
+  width: 130px;
+  padding: 3px 10px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.usermanage .control_bar input[type="text"]:focus,
+.usermanage .control_bar select:focus {
+  outline: none;
+}
+/* --------------- */
+.usermanage table td, .usermanage table th {
+  vertical-align: middle;
+  text-align: center;
+}
+.usermanage table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.usermanage table .item {
+  max-width: 140px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

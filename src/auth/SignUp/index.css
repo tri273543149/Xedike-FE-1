@@ -1,0 +1,65 @@
+.sign_up{
+    width: 100%;
+    height: 100%;
+}
+.sign_up .content_box{
+    width: 100%;
+    height: 100%;
+    background: url(./background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sign_up .content_box .item_left{
+    padding: 49px 10px;
+    background: rgba(23, 162, 184, 0.9);
+}
+.sign_up .content_box .form_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign_up .content_box .title{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.sign_up .content_box .label_name{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+.sign_up .content_box .text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sign_up .content_box input[type="radio"]{
+    margin: 0 5px 0 25px;
+    padding: 3px;
+}
+.sign_up .content_box .button_box{
+    text-align: center;
+}
+/* --------------- */
+.sign_up .content_box .item_right{
+    padding: 10px 50px;
+}
+.sign_up .content_box .item_right .sub_title{
+    color: blue;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sign_up .content_box .item_right .text_scroll{
+    overflow-y: scroll;
+    padding: 20px;
+    height: 400px;
+    background: white;
+    border: solid 2px grey;
+}
+.sign_up .content_box .item_right .text_scroll .body{
+    font-size: 13px;
+}
+.sign_up .content_box .item_right .button_box_2{
+    margin-top: 20px;
+    text-align: right;
+}

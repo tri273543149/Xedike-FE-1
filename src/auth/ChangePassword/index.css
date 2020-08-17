@@ -1,0 +1,17 @@
+.changepassword{
+   background: white;
+   padding: 20px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.changepassword .title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.changepassword .form_content{
+    display: flex;
+    justify-content: space-between;
+}

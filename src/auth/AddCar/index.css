@@ -1,0 +1,34 @@
+.addcar{
+    width: 100%;
+    height: 100%;
+    background: url(./background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.addcar .content_box .item_left{
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.addcar .content_box .item_left .title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: green;
+}
+.addcar .content_box .item_left .form_content{
+    display: flex;
+    justify-content: space-between;
+}
+.addcar .content_box .item_left .label_name{
+    font-weight: 500;
+    font-size: 16px;
+}
+.addcar .content_box .item_left .text{
+    font-size: 14px;
+}

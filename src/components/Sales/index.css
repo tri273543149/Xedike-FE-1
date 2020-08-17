@@ -1,0 +1,24 @@
+.sales {
+  background: #eb8a2f;
+  color: white;
+  padding: 40px 0;
+}
+.sales .content_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sales .content_box .item img {
+  width: 100px;
+  height: 100px;
+}
+.sales .content_box .item .title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.sales .content_box .item .body {
+  margin-bottom: 0;
+}
+.sales .content_box .item button {
+  padding: 15px 20px;
+}

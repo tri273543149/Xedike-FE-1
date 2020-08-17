@@ -1,0 +1,103 @@
+.tripscomponent {
+  min-height: 400px;
+  padding: 30px 0;
+}
+.tripscomponent .title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.tripscomponent nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tripscomponent .tripitem {
+  border: solid 1px transparent;
+  padding: 20px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.tripscomponent .tripitem:hover{
+  border: solid 1px grey;
+}
+.tripscomponent .tripitem .item_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+.tripscomponent .tripitem .item_content img {
+  width: 40px;
+  height: 40px;
+  border: solid 1px black;
+  margin-right: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.tripscomponent .tripitem .item_content .item i {
+  margin-right: 5px;
+  color: grey;
+}
+.tripscomponent .tripitem .locationFrom {
+  margin-right: 5px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tripscomponent .tripitem .locationTo {
+  font-size: 18px;
+  color: orange;
+  font-weight: 500;
+}
+.tripscomponent .tripitem .tenXe {
+  color: purple;
+  font-weight: 500;
+}
+.tripscomponent .tripitem .fullName {
+  color: blue;
+  font-weight: bold;
+}
+.tripscomponent .tripitem .phiVanChuyen {
+  color: gray;
+  font-weight: 500;
+}
+.tripscomponent .tripitem .money {
+  color: orange;
+  font-weight: bold;
+}
+.tripscomponent .tripitem .startTime {
+  font-weight: 500;
+  font-size: 15px;
+}
+.tripscomponent .tripitem .soHanhKhach,
+.tripscomponent .tripitem .soGhe,
+.tripscomponent .tripitem .tanNoi {
+  font-weight: bold;
+  font-size: 15px;
+}
+.tripscomponent .tripitem .item_star i {
+  color: orange;
+  font-size: 13px;
+}
+.tripscomponent .tripitem .item_star span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.tripscomponent .tripitem .rating {
+  font-size: 13px;
+}
+.tripscomponent .tripitem .tot {
+  color: green;
+}
+
+.background {
+  background: #f3f3f3;
+}

@@ -1,0 +1,22 @@
+.booktrip{
+    margin-top: 30px;
+    padding: 20px;
+    min-height: 300px;
+    background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.booktrip .sub_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.booktrip .form_content{
+    display: flex;
+    justify-content: space-between;
+}
+.booktrip .form_content .label_name{
+    font-weight: 500;
+}

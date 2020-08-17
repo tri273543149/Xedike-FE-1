@@ -1,0 +1,134 @@
+.tripdetail {
+  padding: 100px 0;
+  min-height: 650px;
+  background: #f3f3f3;
+}
+.tripdetail .left_content {
+  background: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.tripdetail .left_content .item_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: solid 1px;
+}
+.tripdetail .left_content .item_top span {
+  font-weight: 500;
+}
+.tripdetail .left_content .item_top .locationFrom {
+  font-size: 20px;
+}
+.tripdetail .left_content .item_top .locationTo {
+  font-size: 20px;
+}
+.tripdetail .left_content .item_top .icon {
+  font-size: 20px;
+}
+/* -------------- */
+.tripdetail .left_content .item_mid {
+  padding: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  align-items: center;
+}
+.tripdetail .left_content .item_mid p {
+  margin-bottom: 0;
+}
+/* ---------- */
+.tripdetail .left_content .item_bot {
+  padding: 18px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  align-items: center;
+}
+.tripdetail .left_content .item_bot p {
+  margin-bottom: 0;
+}
+/* ----------------------- */
+.tripdetail .right_content {
+  background: white;
+  min-height: 475px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.tripdetail .right_content .driver_content {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.tripdetail .right_content .driver_content img {
+  width: 100px;
+  height: 100px;
+  border: solid 1px grey;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.tripdetail .right_content .driver_info {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+.tripdetail .right_content .driver_info p {
+  margin-bottom: 0;
+}
+.tripdetail .right_content .driver_info .name {
+  grid-column: 1 / 3;
+  font-size: 22px;
+}
+.tripdetail .right_content .driver_info .star {
+  font-size: 13px;
+  color: orange;
+}
+.tripdetail .right_content .driver_info .social {
+  font-size: 18px;
+}
+.tripdetail .right_content .passenger_content {
+  padding: 20px 10px;
+  height: 283px;
+  overflow-y: auto;
+}
+.tripdetail .right_content .passenger_content .subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* ------------------- */
+.tripdetail .right_content .passenger_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.tripdetail .right_content .passenger_info img {
+  width: 60px;
+  height: 60px;
+  border: solid 1px grey;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.tripdetail .right_content .passenger_info .gridsystem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+  width: 80%;
+}
+.tripdetail .right_content .passenger_info .gridsystem p{
+  margin-bottom: 0;
+}

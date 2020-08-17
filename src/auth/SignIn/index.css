@@ -1,0 +1,66 @@
+.sign_in {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100%;
+}
+.sign_in .item {
+  padding: 30px;
+}
+.sign_in .item_first {
+  grid-column: 1 / 3;
+  background: #28a745;
+}
+.sign_in .item_second {
+  grid-column: 3 / 6;
+  background: url(./background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sign_in .item_first .title {
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+.sign_in .item_first .form_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign_in .item_first .label_name{
+  color: white;
+  font-size: 14px;
+}
+.sign_in .item_first .text{
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign_in .item_first .body {
+  font-size: 14px;
+  color: white;
+}
+.sign_in .item_first .sub_title {
+  text-align: center;
+  color: blue;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sign_in .item_first .sub_body {
+  color: white;
+}
+/* ---------------- */
+.sign_in .item_second .content_box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sign_in .item_second .content_box .content_item {
+  position: absolute;
+  top: 30px;
+}
+.sign_in .item_second .content_box .content_item .title {
+  font-size: 30px;
+  color: #28a745;
+  font-weight: bold;
+  margin: 0;
+}

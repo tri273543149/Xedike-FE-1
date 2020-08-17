@@ -1,0 +1,39 @@
+.getonapp{
+    height: 500px;
+    background: url(./background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.getonapp .content_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: white;
+}
+.getonapp .content_box .title{
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.getonapp .content_box .body{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.getonapp .content_box .gridsystem{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.getonapp .content_box .gridsystem .item img{
+    width: 100%;
+    height: 70px;
+}
